@@ -50,7 +50,5 @@ while True:
             if starting_number==number_limit:
                 print(f'{reset_to_default_color}')
                 break
-  else:
-    error_msg(txt='Error,not a number format please try again')
   except ValueError:
     error_msg(txt='')
